@@ -4,7 +4,7 @@ module text_scanner
 // you often need a basic text scanner that tokenizes the text.
 import os
 
-struct TextScanner {
+pub struct TextScanner {
 pub:
 	text     string    // The full yaml document
 	newline  string    // The auto-detected newline
